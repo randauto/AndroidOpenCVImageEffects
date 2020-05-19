@@ -205,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        GIFImageByteArray = createGIF(imagesMatList, 150);
+        GIFImageByteArray = createGIF(imagesMatList, 500);
         resultName = "animated_GIF";
         GIFLastEffect = true;
     }
